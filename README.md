@@ -17,5 +17,6 @@
 
 ### Инструкция по установке
 Чтобы проект заработал на вашем локальном компьютере, создайте отдельную папку и выполните следующие шаги:
-```git clone https://github.com/sergeyk321/YOLO-TIF.git```
-```cd YOLO-TIF```
+```python
+git clone https://github.com/sergeyk321/YOLO-TIF.git
+cd YOLO-TIF```
