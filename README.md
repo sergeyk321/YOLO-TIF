@@ -21,11 +21,14 @@
 ```python
 git clone https://github.com/sergeyk321/YOLO-TIF.git
 cd YOLO-TIF```
+
 #### 2. Установите зависимости
 ```python
 pip install -r requirements.txt```
+
 #### 3. Запустите приложение
 ```python
 python app.py```
+
 #### 4. Готово
 Загрузите необходимый файл в формате видео или изображения и обработайте его
