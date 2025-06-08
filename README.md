@@ -19,20 +19,17 @@
 Чтобы проект заработал на вашем локальном компьютере, создайте отдельную папку и выполните следующие шаги:
 #### 1. Клонируйте репозиторий
 ````markdown
-```python
 git clone https://github.com/sergeyk321/YOLO-TIF.git
 cd YOLO-TIF
 ````
 
 #### 2. Установите зависимости
 ````markdown
-```python
 pip install -r requirements.txt```
 ````
 
 #### 3. Запустите приложение
 ````markdown
-```python
 python app.py```
 ````
 
