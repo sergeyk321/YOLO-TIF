@@ -25,12 +25,12 @@ cd YOLO-TIF
 
 #### 2. Установите зависимости
 ````markdown
-pip install -r requirements.txt```
+pip install -r requirements.txt
 ````
 
 #### 3. Запустите приложение
 ````markdown
-python app.py```
+python app.py
 ````
 
 #### 4. Готово
