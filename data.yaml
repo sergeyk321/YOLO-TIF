@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['defect_border', 'defect_light', 'defect_sign', 'prop_border', 'prop_light', 'prop_sign']
+
+roboflow:
+  workspace: vkrdefectedobjects2
+  project: vkr-mzwzw
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/vkrdefectedobjects2/vkr-mzwzw/1

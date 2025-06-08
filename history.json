@@ -1,0 +1,182 @@
+[
+    {
+        "date": "2025-05-29T01:12:42.603354",
+        "file": "processed_a7b8ab85-0ab2-471d-833a-22f737a1a30c_video_zar.mp4",
+        "count_defect": 48,
+        "is_video": true
+    },
+    {
+        "date": "2025-06-05T17:36:22.105701",
+        "file": "processed_039dd436-9c6d-4122-8f0a-ce92060c3e13_a7b8ab85-0ab2-471d-833a-22f737a1a30c_video_zar.mp4",
+        "count_defect": 48,
+        "is_video": true
+    },
+    {
+        "date": "2025-06-05T17:45:37.783095",
+        "file": "processed_a2aa8971-35ab-459f-a0cf-8191b068dc09_moscow.mp4",
+        "count_defect": 352,
+        "is_video": true
+    },
+    {
+        "date": "2025-06-05T17:50:13.021459",
+        "file": "annotated_ce233ad7-309b-406c-a7c4-a00437656c37_prop_traffic_signs_rn_720_jpg.rf.a085b16be90fac8e807592d5268b3623.jpg",
+        "count_defect": 0,
+        "is_video": false
+    },
+    {
+        "date": "2025-06-05T17:51:18.344609",
+        "file": "annotated_6c43f576-ace6-470b-b691-21adfec589bf_prop_traffic_signs_rn_720_jpg.rf.a085b16be90fac8e807592d5268b3623.jpg",
+        "count_defect": 6,
+        "is_video": false
+    },
+    {
+        "date": "2025-06-05T17:51:25.839281",
+        "file": "annotated_b2e6697c-4195-4f69-b456-4887973cfd2f_defect_traffic_lights_rn_93_jpg.rf.400261beafeb3df31afc36824290eeeb.jpg",
+        "count_defect": 0,
+        "is_video": false
+    },
+    {
+        "date": "2025-06-05T17:51:35.841127",
+        "file": "annotated_3f47fbfc-cd45-4640-8beb-2bb1feddd86d_prop_traffic_signs_rn_720_jpg.rf.3aa63deffbd1c8c316bc54fec637d3f3.jpg",
+        "count_defect": 0,
+        "is_video": false
+    },
+    {
+        "date": "2025-06-08T16:12:39.802017",
+        "file": "annotated_368bd9c4-e4e0-4653-b6bf-ab57c4986999_defect_traffic_lights_rn_93_jpg.rf.400261beafeb3df31afc36824290eeeb.jpg",
+        "count_defect": 0,
+        "is_video": false
+    },
+    {
+        "date": "2025-06-08T16:13:41.978294",
+        "file": "annotated_95c795fd-cca7-44b9-9e96-501838faa939_Screenshot_87.jpg",
+        "count_defect": 0,
+        "is_video": false
+    },
+    {
+        "date": "2025-06-08T16:13:49.898080",
+        "file": "annotated_6808a444-bb5a-4a81-9e30-b3a0f2bdb03e_Screenshot_1.jpg",
+        "count_defect": 0,
+        "is_video": false
+    },
+    {
+        "date": "2025-06-08T16:15:04.538114",
+        "file": "annotated_eff84754-f6b9-4c4d-8cac-f0efa97106a4_Screenshot_2.jpg",
+        "count_defect": 0,
+        "is_video": false
+    },
+    {
+        "date": "2025-06-08T16:16:24.666452",
+        "file": "annotated_13d6a9a0-85f4-45d1-a365-f9d46c0058a5_Screenshot_3.jpg",
+        "count_defect": 0,
+        "is_video": false
+    },
+    {
+        "date": "2025-06-08T16:16:46.881114",
+        "file": "annotated_7bc004d8-0e77-4d4a-877e-5413cd24d54a_Screenshot_4.jpg",
+        "count_defect": 0,
+        "is_video": false
+    },
+    {
+        "date": "2025-06-08T16:17:21.440818",
+        "file": "annotated_0ca6c277-4695-4a01-b490-821104b7db87_Screenshot_5.jpg",
+        "count_defect": 0,
+        "is_video": false
+    },
+    {
+        "date": "2025-06-08T16:18:22.124817",
+        "file": "annotated_3a00cc7c-b020-4a37-9bcb-4f7b9f1a43ee_Screenshot_6.jpg",
+        "count_defect": 0,
+        "is_video": false
+    },
+    {
+        "date": "2025-06-08T16:20:18.585228",
+        "file": "annotated_3125b0a4-0083-4b5e-b915-a33357ef22b5_Screenshot_7.jpg",
+        "count_defect": 0,
+        "is_video": false
+    },
+    {
+        "date": "2025-06-08T16:21:01.856753",
+        "file": "annotated_59a2ede6-ac11-4d96-a249-3536ec026eba_Screenshot_8.jpg",
+        "count_defect": 0,
+        "is_video": false
+    },
+    {
+        "date": "2025-06-08T16:22:54.132230",
+        "file": "annotated_355687bb-24e0-4526-888b-dbfdb972a84c_Screenshot_9.jpg",
+        "count_defect": 0,
+        "is_video": false
+    },
+    {
+        "date": "2025-06-08T16:23:03.951900",
+        "file": "annotated_b809b428-bd33-42ab-bfc3-3d5c744fc63d_Screenshot_10.jpg",
+        "count_defect": 0,
+        "is_video": false
+    },
+    {
+        "date": "2025-06-08T16:23:09.583486",
+        "file": "annotated_9a702ada-83fb-4818-a2d0-51ed4c9a0f1e_Screenshot_11.jpg",
+        "count_defect": 0,
+        "is_video": false
+    },
+    {
+        "date": "2025-06-08T16:23:15.877295",
+        "file": "annotated_591daa36-ba67-4d72-bf57-44588b306792_Screenshot_12.jpg",
+        "count_defect": 0,
+        "is_video": false
+    },
+    {
+        "date": "2025-06-08T16:23:21.544548",
+        "file": "annotated_f95aaacd-5acd-4079-91f4-ee3a4236ec08_Screenshot_13.jpg",
+        "count_defect": 0,
+        "is_video": false
+    },
+    {
+        "date": "2025-06-08T16:24:58.842766",
+        "file": "annotated_835f64d4-5fc6-46bb-b7dd-f71d581b5eab_Screenshot_14.jpg",
+        "count_defect": 0,
+        "is_video": false
+    },
+    {
+        "date": "2025-06-08T16:25:23.892794",
+        "file": "annotated_363249eb-f18d-43bf-852d-ed576c1ed256_Screenshot_15.jpg",
+        "count_defect": 0,
+        "is_video": false
+    },
+    {
+        "date": "2025-06-08T16:26:12.707823",
+        "file": "annotated_4c19683e-95c2-4c1a-bff3-eeb7efed9b50_Screenshot_16.jpg",
+        "count_defect": 0,
+        "is_video": false
+    },
+    {
+        "date": "2025-06-08T16:27:05.999195",
+        "file": "annotated_69a300ae-2ea5-46a5-ad1e-220cbc91b5c8_Screenshot_17.jpg",
+        "count_defect": 0,
+        "is_video": false
+    },
+    {
+        "date": "2025-06-08T16:27:44.182769",
+        "file": "annotated_d5296bac-5c58-48f5-91b3-ad11b35a0bb4_Screenshot_18.jpg",
+        "count_defect": 0,
+        "is_video": false
+    },
+    {
+        "date": "2025-06-08T16:27:49.211226",
+        "file": "annotated_9db712dc-c59f-4033-a193-8cf87ca2fc6a_Screenshot_19.jpg",
+        "count_defect": 0,
+        "is_video": false
+    },
+    {
+        "date": "2025-06-08T16:28:17.609443",
+        "file": "annotated_0ef0372d-4a6c-4241-aca5-05198ffd732a_Screenshot_20.jpg",
+        "count_defect": 0,
+        "is_video": false
+    },
+    {
+        "date": "2025-06-08T16:28:51.143866",
+        "file": "annotated_0660666b-69d7-429c-8c8b-bf632188bc12_Screenshot_21.jpg",
+        "count_defect": 0,
+        "is_video": false
+    }
+]

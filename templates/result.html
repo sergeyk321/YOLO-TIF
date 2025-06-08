@@ -1,0 +1,84 @@
+<!-- result.html -->
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Результат обработки</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to bottom, #d4f4dd, #a6c0fe);
+            background-attachment: fixed;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            text-align: center;
+            max-width: 800px;
+            width: 95%;
+        }
+
+        h1 {
+            color: #2c3e50;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin: 10px 0 20px;
+            color: #2c3e50;
+        }
+
+        video, img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: white;
+            padding: 12px 25px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        a:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Результат обработки</h1>
+        <p>Количество обнаруженных дефектов: <strong>{{ count }}</strong></p>
+
+        {% if is_video %}
+            <video controls>
+                <source src="{{ url_for('uploaded_file', filename=filename) }}" type="video/mp4">
+                Ваш браузер не поддерживает видео.
+            </video>
+        {% else %}
+            <img src="{{ url_for('uploaded_file', filename=filename) }}" alt="Обработанное изображение">
+        {% endif %}
+
+        <br><br>
+        <a href="{{ url_for('index') }}">Загрузить другой файл</a>
+    </div>
+</body>
+</html>

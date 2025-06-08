@@ -1,0 +1,96 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Подсчёт дефектов</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to bottom, #a8edea, #fed6e3);
+            background-attachment: fixed;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.85);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+            text-align: center;
+            max-width: 500px;
+            width: 90%;
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+
+        input[type="file"] {
+            margin: 20px 0;
+        }
+
+        button {
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            font-size: 16px;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+
+        a.report-link, a.clear-link {
+            display: inline-block;
+            margin-top: 15px;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        a.report-link {
+            background: linear-gradient(135deg, #3498db, #2980b9);
+        }
+
+        a.clear-link {
+            background: linear-gradient(135deg, #ff4e50, #f27121);
+        }
+
+        a.report-link:hover, a.clear-link:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Загрузите изображение или видео</h1>
+        <form method="post" action="{{ url_for('upload_file') }}" enctype="multipart/form-data">
+            <input type="file" name="file" accept="image/*,video/*" required>
+            <br>
+            <button type="submit">Обработать</button>
+        </form>
+
+        <a href="{{ url_for('generate_report') }}" class="report-link">Скачать отчёт</a>
+        <a href="{{ url_for('clear_history') }}" class="clear-link" onclick="return confirm('Вы уверены, что хотите очистить историю?')">Очистить историю</a>
+    </div>
+</body>
+</html>
