@@ -1,0 +1,5 @@
+uuid
+opencv-python
+ultralytics
+Flask
+reportlab
